@@ -101,7 +101,7 @@ a {
     display: flex;
 }
 
-.site-nav .item {
+.site-nav .link {
     color: var(--primary-text-color);
     display: block;
     font-weight: 500;
@@ -112,20 +112,16 @@ a {
     padding-bottom: 32px;
 }
 
-.item {
-    margin-right: 50px;
-}
-
 .item:not(:last-child) {
     margin-right: 50px;
 }
 
-.site-nav .item:hover,
-.site-nav .item:focus {
+.site-nav .link:hover,
+.site-nav .link:focus {
     color: var(--accent-color);
 }
 
-.item.current {
+.link.current {
     color: var(--accent-color);
 }
 
@@ -227,7 +223,6 @@ a {
 
 .section {
     padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 .benefits .benefits-item {
